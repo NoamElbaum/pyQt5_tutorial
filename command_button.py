@@ -61,6 +61,7 @@ class Ui_MainWindow(object):
     def increment(self):
         self.count += 1
         self.label.setText(str(self.count))
+        self.statusbar.showMessage('You incremnted the counter!')
 
 if __name__ == "__main__":
     import sys
